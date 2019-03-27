@@ -45,7 +45,7 @@ def hit?(number)
     deal_card
     number = deal_card + number
     return  number
-  elsif input = 's'
+  elsif get_user_input = 's'
     return number
   else
     invalid_command
