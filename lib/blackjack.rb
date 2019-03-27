@@ -44,8 +44,6 @@ def hit?(number)
   if get_user_input == 'h'
     card = deal_card
     initial_round + card
-  elsif 
-    get_user_input == 's'
   else
     invalid_command
   end
