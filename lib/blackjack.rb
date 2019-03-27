@@ -41,8 +41,14 @@ def hit?(number)
   # code hit? here
   prompt_user
   get_user_input
-  if 
-  
+  if get_user_input == 'h'
+    card = deal_card
+    initial_round + card
+  elsif 
+    get_user_input == 's'
+  else
+    invalid_command
+  end
 end
 
 def invalid_command
