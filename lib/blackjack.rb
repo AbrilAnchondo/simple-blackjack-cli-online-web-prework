@@ -40,10 +40,11 @@ def initial_round
 def hit?(number)
   # code hit? here
   prompt_user
-  input = get_user_input
-  if  input = 'h'
+  get_user_input
+  if get_user_input = 'h'
     deal_card
-    return deal_card + number
+    number = deal_card + number
+    return  number
   elsif input = 's'
     return number
   else
