@@ -43,6 +43,8 @@ def hit?(number)
   get_user_input
   if get_user_input = 'h'
     deal_card
+    number = number + deal_card
+  end
   return number
   
 end
