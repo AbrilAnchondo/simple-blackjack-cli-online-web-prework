@@ -37,31 +37,15 @@ def initial_round
   return sum
  end
 
-def hit?(card_total)
+def hit?(current_total)
   # code hit? here
-  #prompt_user
-  #get_user_input
-  #if get_user_input = 's'
+  prompt_user
+  input = get_user_input
+  if input = 'h'
    # return number
-  #elsif  get_user_input = 'h'
-   # deal_card
-   # number = deal_card + number
-    #return  number
-  #end
-  prompt_user #ask the user if they want to hit or stay
-  get_user_input #set a variable to use for your if/else statement
-  if get_user_input == "h"
-    card_total += deal_card #increase your former total by the new number given by dealing another card
-  elsif get_user_input == "s"
-    card_total #return the number and prompt user to hit again
-  else
-    invalid_command
-  end
-end
-
-def invalid_command
-  # code invalid_command here
-  puts "Please enter a valid command"
+  elsif input = 's'
+   current_total
+  
 end
 
 #####################################################
