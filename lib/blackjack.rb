@@ -62,9 +62,13 @@ def runner
   # code runner here
   welcome
   initial_round
-  prompt_user
-  
-  
+  move = prompt_user
+  if move == "h"
+    deal_card
+  else
+    hit?
+  end
+
   
 end
     
