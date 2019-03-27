@@ -41,8 +41,8 @@ def hit?(number)
   # code hit? here
   prompt_user
   get_user_input
-  if get_user_input=='s'
-  elsif get_user_input=='h'
+  if get_user_input==s
+  elsif get_user_input==h
     deal_card
     number = number + deal_card
   else 
