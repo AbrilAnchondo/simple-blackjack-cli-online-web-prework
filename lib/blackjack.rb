@@ -62,16 +62,6 @@ def runner
   # code runner here
   welcome
   initial_round
-  move = prompt_user
-  if move == "h"
-    deal_card
-  else
-    hit?
-  end
-  
-  if get_user_input > 21
-  end_game(number
-  end)
-  
+ 
 end
     
