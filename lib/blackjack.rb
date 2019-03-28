@@ -62,7 +62,8 @@ def runner
   # code runner here
   welcome
   initial_round
-  if hit? 
+  until hit? >=21
+  
     hit?
   
 end
