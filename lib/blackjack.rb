@@ -68,7 +68,10 @@ def runner
   else
     hit?
   end
-
+  
+  if get_user_input > 21
+  end_game(number
+  end)
   
 end
     
