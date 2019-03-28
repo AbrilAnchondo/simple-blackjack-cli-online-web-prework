@@ -62,8 +62,8 @@ def runner
   # code runner here
   welcome
   initial_round
-  prompt_user
-  hit?
+  if hit? 
+    hit?
   
 end
     
